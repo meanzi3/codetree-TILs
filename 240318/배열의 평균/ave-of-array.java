@@ -18,7 +18,7 @@ public class Main {
             for(int j = 0; j < 4; j++){
                 sum += arr[i][j];
             }
-            double avg = sum / 4;
+            double avg = sum / 4.0;
             System.out.printf("%.1f ", avg);
         }
         System.out.println();
@@ -29,7 +29,7 @@ public class Main {
             for(int j = 0; j < 2; j++){
                 sum += arr[j][i];
             }
-            double avg = sum / 2;
+            double avg = sum / 2.0;
             System.out.printf("%.1f ", avg);
         }
         System.out.println();
@@ -41,7 +41,7 @@ public class Main {
                 sum += arr[i][j];
             }
         }
-        double avg = sum / 8;
+        double avg = sum / 8.0;
         System.out.printf("%.1f ", avg);
     }
 }
