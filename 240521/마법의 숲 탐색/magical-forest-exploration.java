@@ -50,7 +50,7 @@ public class Main {
 			down(y+1, x-1,(d+3) % 4, id);
 		} else if(isPossible(y+1, x+1)) {
 			// 오른쪽 아래로 굴러서 한 칸
-			down(y+1, x+1, (d+3) % 4, id);
+			down(y+1, x+1, (d+1) % 4, id);
 		} else {
 			// 더 이상 움직일 수 없을 때
 			
